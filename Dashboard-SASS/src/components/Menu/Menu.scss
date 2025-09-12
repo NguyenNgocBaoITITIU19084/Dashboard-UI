@@ -1,0 +1,32 @@
+
+@use '../../styles//variables.scss' as var;
+.menu {
+  width: 250px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .item {
+    display: flex;
+    flex-direction: column;
+     margin-bottom: 10px;
+
+    .title {
+      font-size: 12px;
+      font-weight: 200;
+      color: var.$soft-color;
+    }
+    
+    .ListTitle {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 10px;
+
+      &:hover {
+        background-color: var.$soft-bg;
+        border-radius: 10px;
+      }
+    }
+  }
+}
