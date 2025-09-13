@@ -24,7 +24,7 @@ const Menu = () => {
       </div>
       <div className='item'>
         <span className='title'>lists</span>
-        <Link to='/vite.config.js' className='ListTitle'>
+        <Link to='/users' className='ListTitle'>
           <FaUsers />
           <span className='ListTitleItem'>Users</span>
         </Link>

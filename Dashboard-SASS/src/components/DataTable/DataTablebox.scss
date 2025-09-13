@@ -1,0 +1,23 @@
+.table {
+  .data-grid {
+    background-color: white;
+    height: 100%;
+
+    img {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .action {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}

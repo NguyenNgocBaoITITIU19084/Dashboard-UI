@@ -2,6 +2,7 @@ import Chartbox from '../../components/Chartbox/Chartbox';
 import Topbox from '../../components/Topbox/Topbox';
 import BarChartbox from '../../components/BarChartbox/BarChartbox.jsx';
 import PieChartBox from '../../components/PieChart/PieChartbox.jsx';
+import AreaChartbox from '../../components/AreaChartbox/AreaChartbox.jsx';
 
 import {
   chartBoxUser,
@@ -63,7 +64,9 @@ const Home = () => {
           dataKey={chartBoxConversion.dataKey}
         />
       </div>
-      <div className='box box7'>Box7</div>
+      <div className='box box7'>
+        <AreaChartbox />
+      </div>
       <div className='box box8'>
         <BarChartbox
           title={barChartBoxRevenue.title}
